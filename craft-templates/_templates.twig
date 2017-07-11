@@ -1,0 +1,6 @@
+{# This checks the entry type and then loads the correct template #}
+
+{% if "homepage" in entry.type|t %}
+	{% include 'homepage/_homepage.twig' %}
+
+{% endif %}

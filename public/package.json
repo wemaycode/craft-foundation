@@ -1,0 +1,45 @@
+{
+  "name": "craft-foundation",
+  "version": "1.0.0",
+  "description": "Craft CMS, Zurb Foundation & Grunt boilerplate",
+  "author": "Jessica Oei",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.7.2",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-runtime": "^5.8.35",
+    "babelify": "7.2.0",
+    "browserify-shim": "^3.8.12",
+    "foundation-sites": "6.2.3",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-babel": "^6.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-modernizr": "^1.0.2",
+    "grunt-notify": "*",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "*",
+    "grunt-text-replace": "*",
+    "jit-grunt": "*",
+    "jshint": "*",
+    "velocity-animate": "^1.5.0"
+  },
+	"browserify": {
+		"transform": [
+			"babelify",
+			{
+				"presets": [
+					"es2015"
+				]
+			}
+		]
+	}
+}
